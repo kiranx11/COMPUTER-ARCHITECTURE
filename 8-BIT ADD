@@ -1,0 +1,16 @@
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+LDA 4200
+MOV B,A
+LDA 4201
+ADD B
+STA 4202
+
+hlt
